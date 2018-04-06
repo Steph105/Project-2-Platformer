@@ -1,0 +1,28 @@
+.background    { background-image: url("images/grey_forestsmaller.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url("images/goo7.png"); }
+.wall          { background: url("images/ground.png"); }
+.floater       { background: purple;  }
+
+.actor  { position: absolute;  }
+.coin   { background: url("images/coin.png"); }
+.player { background: url("images/player.png"); }
+.superjump { background: url("images/superjump.png"); }
+.teleporter { background: url("images/teleporter.png"); }
+.ghost { background: url("images/ghost.png"); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: url("images/player_lost.png");
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
